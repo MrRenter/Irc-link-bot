@@ -1,0 +1,10 @@
+extends layout
+
+block content
+	ul
+		each link, myi in ircLinks
+			li
+				link.time
+				myi.time
+				link.message
+				myi.message
